@@ -1,6 +1,6 @@
 <?php
 
-		$to = 'nikitanikvta@gmail.com'; //!!! Вставить адрес заказчика
+		$to = 'nikitanikvta@gmail.com';
 
 		$name = htmlspecialchars($_POST['name']);
 		$tel = htmlspecialchars($_POST['tel']);
@@ -19,10 +19,8 @@
 
 	$mail->CharSet = 'UTF-8';
 	$mail->isHTML(true);
-	$mail->setFrom('noreply@'.$_SERVER['HTTP_HOST'], 'СК-Ресурс'); // ПИСЬМО ОТ КОГО
-	$mail->addAddress($to); // АДРЕС ЗАКАЗЧИКА
-//	$mail->addBCC('drugoi@mail.ru');  // ДУБЛИРУЕМ АЛЕКСАНДРУ
-
+	$mail->setFrom('noreply@'.$_SERVER['HTTP_HOST'], 'СК-Ресурс');
+	$mail->addAddress($to);
 	$mail->Subject = 'Новая заявка (СК-Ресурс)';
 	$mail->Body    = '<!DOCTYPE html>
 <html>
