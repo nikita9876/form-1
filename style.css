@@ -1,0 +1,50 @@
+.contact-form {
+    width: 663px;
+    height: 710px;
+}
+.contact-us-input {
+    width: 663px;
+    height: 45px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+.contact-us-message {
+    width: 663px;
+    height: 250px;
+    border: 1px solid #cfcfcf;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.button-box {
+    width: 663px;
+    height: 65px;
+}
+.contact-button {
+    height: 65px;
+    width: 240px;
+    border: 1px solid #cfcfcf;
+    background-color: #6f6f6f;
+    border-radius: 5px;
+    margin-left: 211px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: MyriadProRegular, arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 65px;
+}
+.contact-us-form {
+    color: #bbbbbb;
+    font-size: 14px;
+    font-family: MyriadProRegular, arial;
+    font-weight: bold;
+    text-align: left;
+}
